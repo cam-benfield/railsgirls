@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.7'
 # gem 'bcrypt', '~> 3.1.7'
 # Use for errors that uploader and other packages cannot be found
 gem 'net-ssh'
+# Use devise for authentication
+gem 'devise'
 
 # Use Active Storage variant
 # gem 'image_processing', '~> 1.2'
