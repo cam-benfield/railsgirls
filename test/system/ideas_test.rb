@@ -17,8 +17,6 @@ class IdeasTest < ApplicationSystemTestCase
     fill_in "Description", with: @idea.description
     fill_in "Name", with: @idea.name
     fill_in "Picture", with: @idea.picture
-    fill_in "String", with: @idea.string
-    fill_in "Text", with: @idea.text
     click_on "Create Idea"
 
     assert_text "Idea was successfully created"
@@ -32,8 +30,6 @@ class IdeasTest < ApplicationSystemTestCase
     fill_in "Description", with: @idea.description
     fill_in "Name", with: @idea.name
     fill_in "Picture", with: @idea.picture
-    fill_in "String", with: @idea.string
-    fill_in "Text", with: @idea.text
     click_on "Update Idea"
 
     assert_text "Idea was successfully updated"
