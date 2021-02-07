@@ -1,24 +1,7 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app is an exploration of Rails and what it can do in its current iteration. I used SQLite3, PostgreSQL, Heroku, Carrierwave, and a few other gems to create this. It was largely inspired by a [Railsgirls](http://guides.railsgirls.com/install) tutorial I found while researching my other projects.
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Current Capabilities:
+* Ideas Logging with Image attachments
+* Comments on Ideas with usernames

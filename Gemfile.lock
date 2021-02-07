@@ -217,6 +217,7 @@ DEPENDENCIES
   capybara (>= 3.26)
   carrierwave
   jbuilder (~> 2.7)
+  mini_magick
   net-ssh
   pg
   puma (~> 5.0)
